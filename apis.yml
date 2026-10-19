@@ -37,7 +37,7 @@ tags:
 - IBM
 url: https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-10-15'
+modified: '2026-10-19'
 specificationVersion: '0.23'
 apis:
 - aid: ibm-api-connect:ibm-api-connect-cloud-management-api
@@ -1007,6 +1007,21 @@ common:
   url: security/ibm-api-connect-vulnerability-disclosure.yml
 - type: DomainSecurity
   url: security/ibm-api-connect-domain-security.yml
+- type: Security
+  name: IBM PSIRT — security vulnerability management
+  url: https://www.ibm.com/trust/security-psirt
+- type: TrustCenter
+  name: IBM Trust Center
+  url: https://www.ibm.com/trust
+- type: Compliance
+  name: IBM Cloud compliance programs (SOC 2, ISO 27001 and others)
+  url: https://www.ibm.com/products/cloud/compliance
+- type: DataResidency
+  name: API Connect Enterprise as a Service supported regions
+  url: https://www.ibm.com/docs/en/api-connect/cloud/12.1.1_saas?topic=api-connect-enterprise-as-service-overview
+- type: SupportLifetime
+  name: IBM API Connect Support Lifecycle Policy
+  url: https://www.ibm.com/support/pages/ibm-api-connect-support-lifecycle-policy
 - type: Website
   url: https://www.ibm.com/products/api-connect
 - type: Documentation
@@ -1055,6 +1070,18 @@ common:
 - name: API Connect Flow Pilot (agent skills and MCP servers)
   url: https://www.ibm.com/docs/en/api-connect/software/12.1.1?topic=studio-api-connect-flow-pilot-api-development
   type: Documentation
+- type: CLI
+  name: API Connect toolkit command-line tool (apic)
+  url: https://www.ibm.com/docs/en/api-connect/software/12.1.1?topic=tool-overview-command-line
+- type: Webhooks
+  name: Configuring webhooks
+  url: https://www.ibm.com/docs/en/api-connect/software/12.1.1?topic=administering-configuring-webhooks
+- type: Newsroom
+  name: IBM Newsroom
+  url: https://newsroom.ibm.com/
+- type: Leadership
+  name: IBM senior leadership
+  url: https://www.ibm.com/investor/governance/senior-leadership
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
