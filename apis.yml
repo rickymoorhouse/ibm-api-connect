@@ -35,10 +35,10 @@ tags:
 - Developer Portal
 - Developer Tools
 - IBM
-url: https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/apis.yml
+url: https://apic-api.apiconnect.ibmcloud.com/apis.json
 created: '2026-03-16'
-modified: '2026-10-19'
-specificationVersion: '0.23'
+modified: '2026-10-28'
+specificationVersion: '0.24'
 apis:
 - aid: ibm-api-connect:ibm-api-connect-cloud-management-api
   name: IBM API Connect Platform - Cloud Management API
@@ -1038,6 +1038,15 @@ common:
 - type: OpenAPI
   name: OpenAPI index (12.1.LATEST)
   url: https://apic-api.apiconnect.ibmcloud.com/v12/12.1.LATEST/openapi/index.json
+- type: APICatalog
+  name: API catalog (RFC 9727 well-known linkset)
+  url: https://apic-api.apiconnect.ibmcloud.com/.well-known/api-catalog
+- type: APICatalog
+  name: IBM API Connect 12.1.LATEST API catalog
+  url: https://apic-api.apiconnect.ibmcloud.com/v12/12.1.LATEST/openapi/api-catalog.json
+- type: APIsJSON
+  name: IBM API Connect 12.1.LATEST APIs.json
+  url: https://apic-api.apiconnect.ibmcloud.com/v12/12.1.LATEST/openapi/apis.json
 - type: Authentication
   url: https://www.ibm.com/docs/en/api-connect/software/12.1.1?topic=reference-api-connect-rest-apis
 - type: Support
@@ -1061,7 +1070,7 @@ common:
 - type: PrivacyPolicy
   url: https://www.ibm.com/privacy
 - type: StatusPage
-  url: https://cloud.ibm.com/status
+  url: https://status.platform.saas.ibm.com/status/overview
 - type: Rules
   url: rules/ibm-api-connect-rules.yml
 - name: MCP Server
