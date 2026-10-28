@@ -1044,9 +1044,6 @@ common:
 - type: APICatalog
   name: IBM API Connect 12.1.LATEST API catalog
   url: https://apic-api.apiconnect.ibmcloud.com/v12/12.1.LATEST/openapi/api-catalog.json
-- type: APIsJSON
-  name: IBM API Connect 12.1.LATEST APIs.json
-  url: https://apic-api.apiconnect.ibmcloud.com/v12/12.1.LATEST/openapi/apis.json
 - type: Authentication
   url: https://www.ibm.com/docs/en/api-connect/software/12.1.1?topic=reference-api-connect-rest-apis
 - type: Support
